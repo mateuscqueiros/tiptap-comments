@@ -1,0 +1,77 @@
+.tiptap-comment {
+  background-color: #0ff;
+}
+
+.tiptap-comments-section {
+
+  .comments-container {
+    position: sticky;
+    top: 0;
+    padding-top: 1rem;
+
+    .comment {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-bottom: 0.5rem;
+      width: 300px;
+      padding: 1rem;
+      border: 1px solid #d9d9d9;
+      border-radius: 0.5rem;
+
+      .info {
+        display: flex;
+        gap: 0.5rem;
+
+        .author {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          font-size: 0.8rem;
+          font-weight: bold;
+        }
+
+        .date {
+          font-size: 0.8rem;
+          color: #555;
+        }
+      }
+
+
+      input {
+        flex-grow: 1;
+        border: none;
+        padding: 0.5rem;
+        font-size: 0.8rem;
+        border-radius: 999px;
+        border: 1px solid #d9d9d9;
+      }
+
+      input:disabled {
+        margin-top: 0.5rem;
+        color: #000;
+        background-color: transparent;
+        padding: 0;
+        font-size: 1rem;
+        border: none;
+        border-radius: 0;
+      }
+
+      .comment-content {
+        overflow-wrap: break-word;
+      }
+
+      button {
+        padding: 0.5rem;
+        font-size: 0.8rem;
+        color: #fff;
+        background-color: #1b75d0;
+        border-radius: 9999px;
+        border: none;
+        width: 100px;
+        align-self: self-end;
+        cursor: pointer;
+      }
+    }
+  }
+}
