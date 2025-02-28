@@ -9,7 +9,6 @@ import Link from '@tiptap/extension-link';
 import TextStyle from '@tiptap/extension-text-style';
 import ListItem from '@tiptap/extension-list-item';
 import Comments from '@sereneinserenade/tiptap-comment-extension';
-
 import { forwardRef, useState } from 'react';
 
 import './editor.css';

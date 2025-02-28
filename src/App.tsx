@@ -9,8 +9,7 @@ import { useRef } from 'react';
 
 const App = () => {
   const { editor, isEditable, setIsEditable, comments } = useRichTextEditor({
-    initialValues:
-      '<p>asdfasdfas</p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p>asdfasdfasdfasf</p>',
+    initialValues: '<p>Hello world!</p>',
   });
 
   const editorRef = useRef<any>(null);

@@ -99,7 +99,7 @@ export function CommentsSection({
 
     // TODO: scroll element not window
     editorElement.scrollTo({
-      top: elementPosition,
+      top: elementPosition - 20,
       behavior: 'smooth',
     });
   };
